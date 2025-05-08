@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(
-	name: "ActivityIndicatorView",
+	name: "ExyteActivityIndicator",
 	platforms: [
 		.macOS(.v10_15),
         .iOS(.v13),
@@ -12,13 +12,13 @@ let package = Package(
     ],
     products: [
     	.library(
-    		name: "ActivityIndicatorView", 
-    		targets: ["ActivityIndicatorView"]
+    		name: "ExyteActivityIndicator",
+    		targets: ["ExyteActivityIndicator"]
     	)
     ],
     targets: [
     	.target(
-    		name: "ActivityIndicatorView",
+    		name: "ExyteActivityIndicator",
             swiftSettings: [
                 .enableExperimentalFeature("StrictConcurrency")
             ]
